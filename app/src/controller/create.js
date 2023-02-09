@@ -39,7 +39,6 @@ createController.create = async (req, res)=>{
                 // else {
                     //     console.log("This id exists")
                     // }
-                    
             req.body.id = !data ? 1 :  data.length + 1;
             req.body.date = getCurrentDate();
             req.body.time = getCurrentTime();
