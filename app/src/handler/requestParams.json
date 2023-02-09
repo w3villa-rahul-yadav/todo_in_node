@@ -1,0 +1,4 @@
+{
+    "create": ["id","date","task","time"],
+    "read": ["id", "task","time"]
+}
